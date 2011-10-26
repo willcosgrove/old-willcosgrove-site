@@ -1,0 +1,120 @@
+p, li, h1, h2, h3, h4, h5 {
+  font-family: museo-slab;
+}
+
+body, #logo h1 a, ul#menu li.on {background-color: #39f !important;}
+@-webkit-keyframes bg-colors {
+    0% {background-color: #39f;}
+   15% {background-color: #8bc5d1;}
+   30% {background-color: #f8cb4a;}
+   45% {background-color: #95b850;}
+   60% {background-color: #944893;}
+   75% {background-color: #c71f00;}
+   90% {background-color: #bdb280;}
+  100% {background-color: #39f;}
+}
+
+body, #logo h1 a, ul#menu li.on {
+  -webkit-animation-direction: normal;
+  -webkit-animation-duration: 120s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: bg-colors;
+  -webkit-animation-timing-function: ease;
+}
+
+#wrapper {
+  width: 800px;
+  height: 600px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -300px;
+  margin-left: -400px;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+#the_incredible_sliding_hiding_list {
+  width: 600px;
+  height: 342px;
+  margin-left: 110px;
+  margin-top: -102px;
+}
+
+#things_i_do {
+  z-index: -1;
+  float: left;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 3em;
+}
+
+#gradient_cover {
+  position: relative;
+  background-image: linear-gradient(bottom, rgba(255,255,255,0) 100%, rgba(255,255,255,1) 16.66%);
+  background-image: -o-linear-gradient(bottom, rgba(255,255,255,0) 100%, rgba(255,255,255,1) 16.66%);
+  background-image: -moz-linear-gradient(bottom, rgba(255,255,255,0) 100%, rgba(255,255,255,1) 16.66%);
+  background-image: -webkit-linear-gradient(bottom, rgba(255,255,255,0) 100%, rgba(255,255,255,1) 16.66%);
+  background-image: -ms-linear-gradient(bottom, rgba(255,255,255,0) 100%, rgba(255,255,255,1) 16.66%);
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(1, rgba(255,255,255, 0)),
+    color-stop(.1666, rgba(255,255,255, 1))
+  );
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  z-index: 2;
+}
+
+li:nth-child(1) {
+  opacity: 0;
+  margin-top: -1.2em;
+  -webkit-transition: margin-top 0.5s ease-in-out;
+  -moz-transition: margin-top 0.5s ease-in-out;
+  -o-transition: margin-top 0.5s ease-in-out;
+  -ms-transition: margin-top 0.5s ease-in-out;
+  transition: margin-top 0.5s ease-in-out;
+}
+
+li:nth-child(2) {
+  opacity: 1;
+}
+
+li:nth-child(3) {
+  opacity: .8;
+}
+
+li:nth-child(4) {
+  opacity: .6;
+}
+
+li:nth-child(5) {
+  opacity: .4;
+}
+
+li:nth-child(6) {
+  opacity: .2;
+}
+
+li:nth-child(7) {
+  opacity: 0;
+}
+
+li {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
