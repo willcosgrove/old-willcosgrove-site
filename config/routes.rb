@@ -1,4 +1,7 @@
 Willcosgrove::Application.routes.draw do
+  root :to => 'home#index'
+  get '/listening_to' => 'home#listening_to'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

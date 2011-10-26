@@ -16,6 +16,8 @@ group :assets do
   gem 'uglifier'
 end
 
+gem 'lastfm-client', :git => 'http://github.com/pch/lastfm-client.git'
+gem 'meta-spotify'
 gem 'jquery-rails'
 
 # Use unicorn as the web server
