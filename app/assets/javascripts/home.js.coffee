@@ -41,4 +41,4 @@ setInterval(->
     error: ->
       $("#currently_listening_to").css("bottom", "-35px")
   })
-, 10000)
+, 60000)
