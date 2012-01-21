@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>Code/willcosgrove/app/controllers/home_controller.rb</string>
+	<string>app/controllers/home_controller.rb</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -21,26 +21,40 @@
 	<integer>200</integer>
 	<key>metaData</key>
 	<dict>
-		<key>Code/willcosgrove/app/assets/javascripts/home.js.coffee</key>
+		<key>Gemfile</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>8</integer>
+				<integer>3</integer>
 				<key>line</key>
-				<integer>31</integer>
+				<integer>22</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>Code/willcosgrove/app/assets/stylesheets/application.css</key>
+		<key>app/assets/javascripts/home.js.coffee</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>3</integer>
+				<key>line</key>
+				<integer>43</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>6</integer>
+		</dict>
+		<key>app/assets/stylesheets/application.css</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>2</integer>
 				<key>line</key>
 				<integer>0</integer>
 			</dict>
@@ -49,77 +63,107 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>Code/willcosgrove/app/assets/stylesheets/home.css.scss</key>
+		<key>app/assets/stylesheets/home.css.scss</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
+				<integer>25</integer>
+				<key>line</key>
+				<integer>162</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>132</integer>
+		</dict>
+		<key>app/controllers/application_controller.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>96</integer>
+				<key>line</key>
+				<integer>12</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/controllers/home_controller.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>42</integer>
+				<key>line</key>
+				<integer>11</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>42</integer>
+				<key>line</key>
+				<integer>11</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>45</integer>
+				<key>line</key>
+				<integer>11</integer>
+			</dict>
+		</dict>
+		<key>app/helpers/application_helper.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>2</integer>
+				<key>line</key>
 				<integer>1</integer>
-				<key>line</key>
-				<integer>169</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>131</integer>
+			<integer>0</integer>
 		</dict>
-		<key>Code/willcosgrove/app/controllers/home_controller.rb</key>
+		<key>app/helpers/home_helper.rb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>9</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>Code/willcosgrove/app/views/home/index.html.erb</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>23</integer>
-				<key>line</key>
-				<integer>17</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>Code/willcosgrove/app/views/layouts/application.html.erb</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>14</integer>
-				<key>line</key>
-				<integer>8</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>Code/willcosgrove/config/routes.rb</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
 				<integer>0</integer>
-				<key>line</key>
-				<integer>1</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>Code/willcosgrove/public/favicon.ico</key>
+		<key>app/views/home/index.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>198</integer>
+				<key>line</key>
+				<integer>21</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>public/favicon.ico</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -136,14 +180,16 @@
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>Code/willcosgrove/app/views/layouts/application.html.erb</string>
-		<string>Code/willcosgrove/app/assets/stylesheets/home.css.scss</string>
-		<string>Code/willcosgrove/app/assets/stylesheets/application.css</string>
-		<string>Code/willcosgrove/app/controllers/home_controller.rb</string>
-		<string>Code/willcosgrove/app/assets/javascripts/home.js.coffee</string>
-		<string>Code/willcosgrove/public/favicon.ico</string>
-		<string>Code/willcosgrove/app/views/home/index.html.erb</string>
-		<string>Code/willcosgrove/config/routes.rb</string>
+		<string>app/assets/stylesheets/home.css.scss</string>
+		<string>app/assets/stylesheets/application.css</string>
+		<string>app/controllers/home_controller.rb</string>
+		<string>app/controllers/application_controller.rb</string>
+		<string>app/helpers/application_helper.rb</string>
+		<string>app/helpers/home_helper.rb</string>
+		<string>Gemfile</string>
+		<string>app/assets/javascripts/home.js.coffee</string>
+		<string>public/favicon.ico</string>
+		<string>app/views/home/index.html.erb</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<false/>
