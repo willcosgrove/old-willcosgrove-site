@@ -20,7 +20,7 @@ things_i_do = ["fancy backgrounds.",
                   "special effects.",
                   "web design.",
                   "general hackery.",
-                  "a lot of stuff, ok.",
+                  "a lot of stuff, ok?",
                   "hold up, are you still here?",
                   "thanks."];
 
