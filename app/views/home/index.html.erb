@@ -1,22 +1,26 @@
-<div id="wrapper">
-  <h2>Hey, I'm Will.</h2>
-  <h2>I do</h2>
-  <div id="the_incredible_sliding_hiding_list">
-    <ul id="things_i_do">
-      <li>cool sliding lists.</li>
-      <li>web design.</li>
-      <li>rails development.</li>
-      <li>motion graphic design.</li>
-      <li>video editing.</li>
-      <li>general hackery.</li>
-      <li>you can't see me.</li>
-    </ul>
+<% cache 'main' do %>
+  <div id="wrapper">
+    <h2>Hey, I'm Will.</h2>
+    <h2>I do</h2>
+    <div id="the_incredible_sliding_hiding_list">
+      <ul id="things_i_do">
+        <li>cool sliding lists.</li>
+        <li>web design.</li>
+        <li>rails development.</li>
+        <li>motion graphic design.</li>
+        <li>video editing.</li>
+        <li>general hackery.</li>
+        <li>you can't see me.</li>
+      </ul>
+    </div>
+    <div id="email_block">
+      <h3>If you want me to do any of these things for you</h3>
+      <h1>email me</h1>
+      <h2 id="email"><a href="mailto:will@willcosgrove.com">will@willcosgrove.com</a></h2>
+    </div>
   </div>
-  <div id="email_block">
-    <h3>If you want me to do any of these things for you</h3>
-    <h1>email me</h1>
-    <h2 id="email"><a href="mailto:will@willcosgrove.com">will@willcosgrove.com</a></h2>
-  </div>
-</div>
+<% end %>
 
-<div id="currently_listening_to" <% unless @current_song %> style="bottom:-35px" <% end %>><span><% if @current_song %>Currently listening to: <%= @current_song.name %> by <%= @current_song.artist_name %><% end %></span></div>
+<% cache @current_song do %>
+  <div id="currently_listening_to" <% unless @current_song %> style="bottom:-35px" <% end %>><span><% if @current_song %>Currently listening to: <%= @current_song.name %> by <%= @current_song.artist_name %><% end %></span></div>
+<% end %>
